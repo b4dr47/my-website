@@ -1,10 +1,10 @@
 export const metaData = {
-  baseUrl: "https://b4dr47.vercel.app/",
-  title: "b4dr47",
-  name: "b4dr47",
-  ogImage: "/opengraph-image.png",
-  description:
-    "A high school student from Taiwan.",
+    baseUrl: "https://b4dr47.vercel.app/",
+    title: "b4dr47",
+    name: "b4dr47",
+    ogImage: "/opengraph-image.png",
+    description: "A high school developer from Taiwan.",
+    keywords: "b4dr47, b4, badrat, high school developer, Taiwan",
 };
 
 export const socialLinks = {

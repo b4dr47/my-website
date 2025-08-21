@@ -9,11 +9,11 @@ import { ThemeProvider } from "./components/theme-switch";
 import { metaData } from "./lib/config";
 
 const font = JetBrains_Mono({
-    subsets: ["latin"],
+    subsets: [],
     display: "swap",
-    variable: "--font-JetBrains_Mono",
     weight: "variable",
     style: "normal",
+    fallback: ["system-ui"],
 });
 
 export const metadata: Metadata = {

@@ -16,6 +16,6 @@ export const projects: Project[] = [
     title: "my-website",
     year: 2025,
     description: "My website",
-    url: "https://b4dr47.vercel.app/",
+    url: "https://b4dr47.dev/",
   },
 ];

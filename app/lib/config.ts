@@ -1,5 +1,5 @@
 export const metaData = {
-    baseUrl: "https://b4dr47.vercel.app/",
+    baseUrl: "https://b4dr47.dev/",
     title: "b4dr47",
     name: "b4dr47",
     ogImage: "/opengraph-image.png",

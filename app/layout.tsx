@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     template: `%s | ${metaData.title}`,
   },
   description: metaData.description,
+  keywords: metaData.keywords,
   openGraph: {
     images: metaData.ogImage,
     title: metaData.title,

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s | ${metaData.title}`,
   },
   description: metaData.description,
-  keywords: metaData.keywords.split(",").map((k) => k.trim()),
+  keywords: metaData.keywords,
   openGraph: {
     images: metaData.ogImage,
     title: metaData.title,

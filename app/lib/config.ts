@@ -4,7 +4,7 @@ export const metaData = {
     name: "b4dr47",
     ogImage: "/opengraph-image.png",
     description: "A high school developer from Taiwan.",
-    keywords: "b4dr47, b4, badrat, high school developer, Taiwan",
+    keywords: ["b4dr47", "b4", "badrat", "high school developer", "Taiwan",],
 };
 
 export const socialLinks = {

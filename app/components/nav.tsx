@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { ThemeSwitch } from "./theme-switch";
 import Image from "next/image";
-import { FaBlog, FaProjectDiagram } from "react-icons/fa";
+import { FaBlog, FaDiagramProject } from "react-icons/fa6";
 
 const navItems = {
   "/blog": { name: "Blog", icon: <FaBlog /> },
-  "/projects": { name: "Projects", icon: <FaProjectDiagram /> },
+  "/projects": { name: "Projects", icon: <FaDiagramProject /> },
 };
 
 export function Navbar() {
@@ -14,13 +14,13 @@ export function Navbar() {
       <div className="flex flex-col md:flex-row md:items-center justify-between">
         <div className="flex items-center">
           <Link href="/" className="text-3xl font-semibold">
-              <Image
-                  src="/logo.webp"
-                  alt="logo"
-                  className="rounded-lg lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto flex items-center justify-center"
-                  width={50}
-                  height={50}
-              />
+            <Image
+              src="/logo.webp"
+              alt="logo"
+              className="rounded-lg lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto flex items-center justify-center"
+              width={50}
+              height={50}
+            />
           </Link>
         </div>
         <div className="flex flex-row gap-4 mt-6 md:mt-0 md:ml-auto items-center">
@@ -30,7 +30,7 @@ export function Navbar() {
               href={path}
               className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex items-center gap-2"
             >
-                { icon }
+              {icon}
               <span>{name}</span>
             </Link>
           ))}

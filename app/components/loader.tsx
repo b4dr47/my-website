@@ -8,13 +8,7 @@ const Loader = () => {
       sequence={[
         "$ Oh hi!🪶",
         1000,
-        "$ b4dr47",
-        1000,
-        "$ Badrat🐀",
-        1000,
-        "$ Taiwan🇹🇼",
-        1000,
-        "$ Student🎓",
+        "$ I'm b4dr47",
         1000,
         () => {
           console.log("Sequence completed");
@@ -22,7 +16,7 @@ const Loader = () => {
       ]}
       wrapper="span"
       cursor={true}
-      repeat={Infinity}
+      repeat={0}
       style={{ fontSize: '1.3em', display: 'inline-block' }}
     />
   );

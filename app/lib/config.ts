@@ -12,5 +12,5 @@ export const socialLinks = {
   github: "https://github.com/b4dr47",
   instagram: "https://www.instagram.com/b4dr47.brat",
   discord: "https://discord.com/users/913408616311164938",
-  email: "mailto:b4dr47@b4dr47.dev",
+  email: "mailto:me@b4dr47.dev",
 };

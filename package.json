@@ -12,7 +12,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "feed": "^5.1.0",
     "katex": "^0.16.22",
-    "next": "^15.5.2",
+    "next": "^15.5.3",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.4.6",
     "react": "19.1.0",
@@ -24,17 +24,17 @@
     "react-youtube": "^10.1.0",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
-    "styled-components": "^6.1.8",
+    "styled-components": "^6.1.19",
     "sugar-high": "^0.9.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.12",
-    "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "^24.3.0",
-    "@types/react": "^19.1.12",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/typography": "^0.5.18",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "autoprefixer": "^10.4.21",
-    "tailwindcss": "^4.1.12",
+    "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2"
   }
 }

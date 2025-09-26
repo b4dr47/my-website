@@ -16,7 +16,7 @@ My personal website built with [this template](https://github.com/1msirius/Nextf
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
 
 ```
-pnpm create next-app --example https://github.com/1msirius/Nextfolio my-portfolio
+pnpm create next-app --example https://github.com/b4dr47/my-website my-website
 ```
 
 Start the development server:

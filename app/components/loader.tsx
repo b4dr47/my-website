@@ -6,9 +6,9 @@ const Loader = () => {
   return (
     <TypeAnimation
       sequence={[
-        "$ Oh hi!🪶",
+        "> Oh hi!🪶",
         1000,
-        "$ I'm b4dr47",
+        "> I'm b4dr47",
         1000,
         () => {
           console.log("Sequence completed");

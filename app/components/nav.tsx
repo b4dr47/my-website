@@ -28,10 +28,14 @@ export function Navbar() {
             <Link
               key={path}
               href={path}
-              className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex items-center gap-2"
+              className="group flex items-center gap-2 transition-colors"
             >
-              {icon}
-              <span>{name}</span>
+              <div className="p-2 rounded-lg transition-colors duration-300 ease-in-out">
+                {icon}
+              </div>
+              <span className="max-w-0 overflow-hidden whitespace-nowrap text-sm font-bold transition-all duration-300 group-hover:max-w-xs ease-in-out">
+                {name}
+              </span>
             </Link>
           ))}
           <ThemeSwitch />

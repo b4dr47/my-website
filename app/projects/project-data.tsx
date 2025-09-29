@@ -16,6 +16,6 @@ export const projects: Project[] = [
     title: "my-website",
     year: 2025,
     description: "My website",
-    url: "https://b4dr47.dev/",
+    url: "https://github.com/b4dr47/my-website",
   },
 ];

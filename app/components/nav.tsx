@@ -30,12 +30,12 @@ export function Navbar() {
               href={path}
               className="group flex items-center gap-2 transition-colors"
             >
-	    	<div>
+              <div>
                 {icon}
-			</div>
-	<span>
-			{name}
-            </span>
+              </div>
+              <span className="font-semibold">
+                {name}
+              </span>
             </Link>
           ))}
           <ThemeSwitch />

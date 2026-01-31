@@ -1,0 +1,15 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "b4dr47",
+  "home_page_url": "https://b4dr47.dev/",
+  "feed_url": "https://b4dr47.dev/feed.json",
+  "items": [
+    {
+      "id": "https://b4dr47.dev/blog/hello-world",
+      "url": "https://b4dr47.dev/blog/hello-world",
+      "title": "Hello, World!",
+      "summary": "My blog",
+      "date_published": "2025-09-29T00:00:00Z"
+    }
+  ]
+}

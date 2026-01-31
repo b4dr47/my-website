@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && touch out/.nojekyll && echo 'b4dr47.dev' > out/CNAME && gh-pages -d out -t true"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.35",
@@ -35,6 +36,7 @@
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.16",
     "typescript": "^5.9.3"
   }

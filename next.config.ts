@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',
+  basePath: '', // Empty for custom domain
+  images: {
+    unoptimized: true,
+  },
   reactStrictMode: true,
   async rewrites() {
     return [

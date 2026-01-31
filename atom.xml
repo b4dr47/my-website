@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>b4dr47</title>
+  <link href="https://b4dr47.dev/"/>
+  <updated>2025-09-29T00:00:00Z</updated>
+  <id>https://b4dr47.dev/</id>
+  <entry>
+    <title>Hello, World!</title>
+    <link href="https://b4dr47.dev/blog/hello-world"/>
+    <id>https://b4dr47.dev/blog/hello-world</id>
+    <updated>2025-09-29T00:00:00Z</updated>
+    <summary>My blog</summary>
+  </entry>
+</feed>

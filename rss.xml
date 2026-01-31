@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>b4dr47</title>
+    <link>https://b4dr47.dev/</link>
+    <description>A high school developer from Taiwan.</description>
+    <language>en</language>
+    <item>
+      <title>Hello, World!</title>
+      <link>https://b4dr47.dev/blog/hello-world</link>
+      <description>My blog</description>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

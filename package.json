@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && touch out/.nojekyll && echo 'b4dr47.dev' > out/CNAME && gh-pages -d out -t true"
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.35",

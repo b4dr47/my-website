@@ -18,4 +18,10 @@ export const projects: Project[] = [
     description: "My website",
     url: "https://github.com/b4dr47/my-website",
   },
+  {
+    title: "web-terminal",
+    year: 2026,
+    description: "A terminal style website",
+    url: "https://terminal.b4dr47.dev/",
+  },
 ];

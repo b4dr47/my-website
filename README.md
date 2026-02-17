@@ -3,7 +3,7 @@
 ## Technologies 
 
 - Framework: [Next.js](https://nextjs.org/)
-- Styling: [Tailwind CSS](https://tailwindcss.com/]
+- Styling: [Tailwind CSS](https://tailwindcss.com/)
 - Deployment: [GitHub Pages](https://docs.github.com/en/pages)
 
 ## Installation
